@@ -48,6 +48,8 @@ Performance of our EALinUCB with three different weight functions and the baseli
 |EALinUCB (ours) | Linear | 0.1706 | 0.3661 | $\textbf{0.5879}^*$ | 0.3563 | 0.3582 | 
 
 
+<br/>
+
 Performance of our EALinUCB with three different weight functions and the baselines on MovieLens dataset for $𝑑 = 20$ and $𝐾 = 10$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
 | Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -58,6 +60,8 @@ Performance of our EALinUCB with three different weight functions and the baseli
 |EALinUCB (ours) | RBP | $\textbf{0.3722}$ | 0.4074 | 0.434 | 0.0555 | 0.0557 | 
 |EALinUCB (ours) | Linear | 0.3585 | $\textbf{0.498}^*$ | 0.5062 | 0.0601 | 0.0604 | 
 
+
+<br/>
 
 Performance of our EALinUCB with three different weight functions and the baselines on Yahoo Music dataset for $𝑑 = 20$ and $𝐾 = 10$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
 | Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
