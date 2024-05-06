@@ -1,5 +1,7 @@
 # Exposure-aware Cascading Bandits
 
+This page presents the additional experimental results of paper: Mitigating Exposure Bias in Online Learning to Rank Recommendations
+
 ## Experimental results of RQ1 on Yahoo Music dataset
 
 ![alt text](https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_exploration.png?raw=true)
