@@ -64,6 +64,6 @@ Performance of our EALinUCB with three different weight functions and the baseli
 | LinUCB  |  -    | 0.3154 | 0.4469 | 0.404 | 0.4429 | 0.4002 |
 | EARSLinUCB | - | 0.3157 | 0.4467 | 0.4467 | 0.4429 | 0.4429 |
 |FRMLinUCB | - | 0.3085 | 0.4517 | 0.4596 | 0.4517 | 0.4498 | 
-|EALinUCB (ours) | Log | 0.3073 | $\textbf{0.495}^*$ | 0.5174 | $\textbf{0.485}^*$ | $\textbf{0.473}^$ |
+|EALinUCB (ours) | Log | 0.3073 | $\textbf{0.495}^*$ | 0.5174 | $\textbf{0.485}^*$ | $\textbf{0.473}^*$ |
 |EALinUCB (ours) | RBP | $\textbf{0.3171}$ | 0.4489 | $\textbf{0.553}^*$ | 0.4614 | 0.4585 | 
 |EALinUCB (ours) | Linear | 0.3008 | 0.4552 | 0.5312 | 0.461 | 0.4542 | 
