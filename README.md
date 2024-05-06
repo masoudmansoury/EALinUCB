@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_exploration.png?raw=true)
 
-<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_clicks.png" width="300"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_regret.png" width="300"/>
+<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_clicks.png" width="350"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_regret.png" width="350"/>
 
 <!-- ![alt-text-1](https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_clicks.png?raw=true "title-1") ![alt-text-2](https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_regret.png?raw=true "title-2") -->
 
