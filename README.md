@@ -25,8 +25,8 @@ This page presents the additional experimental results of paper: Mitigating Expo
 
 ## (RQ2) Comparison to baselines
 
-
-| Method | Weight function | clicks | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
+Performance of our EALinUCB with three different weight functions and the baselines on MovieLens dataset for $𝑑 = 20$ and $𝐾 = 5$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
+| Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
 | LinUCB  |  -    |$\textbf{0.2166}$|0.329 | 0.3081 | 0.0506 | 0.0476 |
 | EARSLinUCB | - | 0.2165 | 0.3257 | 0.3257 | 0.0495 | 0.0495 |
