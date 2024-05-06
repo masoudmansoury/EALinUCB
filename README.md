@@ -31,6 +31,6 @@ This page presents the additional experimental results of paper: Mitigating Expo
 | LinUCB  |  -    |$\textbf{0.2166}$|0.329 | 0.3081 | 0.0506 | 0.0476 |
 | EARSLinUCB | - | 0.2165 | 0.3257 | 0.3257 | 0.0495 | 0.0495 |
 |FRMLinUCB | - | 0.2005 | 0.3334 | 0.4586 | 0.0504 | 0.0505 | 
-|EALinUCB (ours) | Log | 0.2105 | 0.3799 | $\textbf{0.524}^\dag$ | $\textbf{0.055} | $\textbf{0.0546}$ |
+|EALinUCB (ours) | Log | 0.2105 | 0.3799 | $\textbf{0.524}^*$ | $\textbf{0.055} | $\textbf{0.0546}$ |
 |EALinUCB (ours) | RBP | $\textbf{0.2166}$ | 0.329 | 0.472 | 0.0506 | 0.0515 | 
-|EALinUCB (ours) | Linear | 0.2069 | $\textbf{0.392}^\dag$ | 0.5142 | 0.0545 | 0.0535 | 
+|EALinUCB (ours) | Linear | 0.2069 | $\textbf{0.392}^*$ | 0.5142 | 0.0545 | 0.0535 | 
