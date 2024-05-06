@@ -26,6 +26,6 @@ This page presents the additional experimental results of paper: Mitigating Expo
 ## (RQ2) Comparison to baselines
 
 
-| Method | Weight function | clicks | $Equality$^{(B)} | $Equality$^{(P)} | $Equity$^{(B)} | $Equity$^{({P})}
+| Method | Weight function | clicks | Equality^{(B)} | $Equality$^{(P)} | $Equity$^{(B)} | $Equity$^{({P})}
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
 | Seconds | 301   | 283   | 283   | 283   | 283   | 283   |
