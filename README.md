@@ -1,5 +1,7 @@
 # Exposure-aware Cascading Bandits
 
+## Experimental results of RQ1 on Yahoo Music dataset
+
 ![alt text](https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_exploration.png?raw=true)
 
 <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_clicks.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_regret.png" width="400"/>
