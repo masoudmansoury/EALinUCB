@@ -25,7 +25,7 @@ This page presents the additional experimental results of paper: Mitigating Expo
 
 ## (RQ2) Comparison to baselines
 
-Performance of our EALinUCB with three different weight functions and the baselines on *MovieLens* dataset for $𝑑 = 20$ and $𝐾 = 5$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
+Performance of our EALinUCB with three different weight functions and the baselines on **MovieLens** dataset for $𝑑 = 20$ and $𝐾 = 5$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
 | Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
 | LinUCB  |  -    |$\textbf{0.2166}$|0.329 | 0.3081 | 0.0506 | 0.0476 |
@@ -76,10 +76,20 @@ Performance of our EALinUCB with three different weight functions and the baseli
 
 ### Additional results corresponding to Figure 3
 
-Comparison of LinUCB and EALinUCB with three weight functions in terms of $Equality^{(𝑃)}$ per round on MovieLens dataset for $𝑑 = 10$, $𝐾 = 10$, $\alpha = 0.25$, and $\gamma = 0$. At each round $𝑡$, $Equality^{(𝑃)}$ is computed over the accumulated exposure up to round $𝑡$.
+Comparison of LinUCB and EALinUCB with three weight functions in terms of clicks, $n$-step-regret, and exposure bias metrics per round on MovieLens dataset for $𝑑 = 10$, $𝐾 = 10$, $\alpha = 0.25$, and $\gamma = 0$. For exposure bias metrics, at each round $𝑡$, the metric value is computed over the accumulated exposure up to round $𝑡$.
 
 <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_clicks_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_regret_ea.png" width="400"/>
 
 <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_equality_b_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_equity_b_ea.png" width="400"/>
 
 <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_equity_p_ea.png" width="400"/>
+
+<br\>
+
+Comparison of LinUCB and EALinUCB with three weight functions in terms of clicks, $n$-step-regret, and exposure bias metrics per round on Yahoo Music dataset for $𝑑 = 10$, $𝐾 = 10$, $\alpha = 0.25$, and $\gamma = 0$. For exposure bias metrics, at each round $𝑡$, the metric value is computed over the accumulated exposure up to round $𝑡$.
+
+<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_clicks_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_regret_ea.png" width="400"/>
+
+<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equality_b_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equity_b_ea.png" width="400"/>
+
+<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equity_p_ea.png" width="400"/>
