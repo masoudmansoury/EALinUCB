@@ -1,6 +1,6 @@
 # Exposure-aware Cascading Bandits
 
-This page presents the additional experimental results of paper: Mitigating Exposure Bias in Online Learning to Rank Recommendations
+This page presents the additional experimental results of paper: **Mitigating Exposure Bias in Online Learning to Rank Recommendation: A Novel Reward Model for Cascading Bandits**
 
 ## Experimental results of RQ1 on MovieLens1M dataset
 
