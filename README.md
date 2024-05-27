@@ -73,6 +73,7 @@ Performance of our EALinUCB with three different weight functions and the baseli
 |EALinUCB (ours) | RBP | $\textbf{0.3171}$ | 0.4489 | $\textbf{0.553}^*$ | 0.4614 | 0.4585 | 
 |EALinUCB (ours) | Linear | 0.3008 | 0.4552 | 0.5312 | 0.461 | 0.4542 | 
 
+<br/>
 
 ### Additional results corresponding to Figure 3
 
@@ -80,11 +81,11 @@ Comparison of LinUCB and EALinUCB with three weight functions in terms of clicks
 
 <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_clicks_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_regret_ea.png" width="400"/>
 
-<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_equality_b_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_equity_b_ea.png" width="400"/>
+<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_equality_b_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_equality_p_ea.png" width="400"/>
 
-<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_equity_p_ea.png" width="400"/>
+<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_equity_b_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_cum_equity_p_ea.png" width="400"/>
 
-<br\>
+<br/>
 
 Comparison of LinUCB and EALinUCB with three weight functions in terms of clicks, n-step-regret, and exposure bias metrics per round on **Yahoo Music** dataset for $𝑑 = 10$, $𝐾 = 10$, $\alpha = 0.25$, and $\gamma = 0$. For exposure bias metrics, at each round $𝑡$, the metric value is computed over the accumulated exposure up to round $𝑡$.
 
