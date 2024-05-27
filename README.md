@@ -2,7 +2,7 @@
 
 This page presents the additional experimental results of paper: **Mitigating Exposure Bias in Online Learning to Rank Recommendation: A Novel Reward Model for Cascading Bandits**
 
-## Experimental results of RQ1 on MovieLens1M dataset
+## Experimental results of RQ1 on MovieLens dataset
 
 <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_exploration.png" width="800"/>
 <!-- ![alt text](/images/img_r2y_exploration.png?raw=true) -->
@@ -44,9 +44,9 @@ This page presents the additional experimental results of paper: **Mitigating Ex
 
 ![alt text](https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equity_p.png?raw=true) -->
 
-## (RQ2) Comparison to baselines
+## (RQ2) Comparison to baselines on MovieLens dataset
 
-Performance of our EALinUCB with three different weight functions and the baselines on **MovieLens** dataset for $𝑑 = 20$ and $𝐾 = 5$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
+Performance of our EALinUCB with three different weight functions and the baselines on **MovieLens** dataset for $𝑑 = 10$ and $𝐾 = 5$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
 | Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
 | LinUCB  |  -    |$\textbf{0.2166}$|0.329 | 0.3081 | 0.0506 | 0.0476 |
@@ -58,15 +58,40 @@ Performance of our EALinUCB with three different weight functions and the baseli
 
 <br/>
 
-Performance of our EALinUCB with three different weight functions and the baselines on **Yahoo Music** dataset for $𝑑 = 20$ and $𝐾 = 5$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
+Performance of our EALinUCB with three different weight functions and the baselines on **MovieLens** dataset for $𝑑 = 10$ and $𝐾 = 10$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
 | Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
-| LinUCB  |  -    |0.1802 | 0.3602 | 0.3316 | 0.3559 | 0.3278 |
-| EARSLinUCB | - | 0.1807 | 0.3591 | 0.3591 | 0.3556 | 0.3556 |
-|FRMLinUCB | - | 0.1721 | 0.3514 | 0.42 | 0.3514 | 0.3501 | 
-|EALinUCB (ours) | Log | 0.1772 | $\textbf{0.3662}$ | 0.5396 | $\textbf{0.3599}$ | $\textbf{0.3641}$ |
-|EALinUCB (ours) | RBP | $\textbf{0.1814}$ | 0.365 | 0.5812 | 0.358 | 0.362 | 
-|EALinUCB (ours) | Linear | 0.1706 | 0.3661 | $\textbf{0.5879}^*$ | 0.3563 | 0.3582 | 
+| LinUCB  |  -    | $\textbf{0.3722}$ | 0.3974 | 0.3656 | 0.0555 | 0.0507 |
+| EARSLinUCB | - | 0.3721 | 0.3974 | 0.3848 | 0.0562 | 0.0541 |
+|FRMLinUCB | - | 0.3574 | 0.4029 | 0.4157 | 0.0572 | 0.055 | 
+|EALinUCB (ours) | Log | 0.3605 | 0.494 | $\textbf{0.514}^*$ | $\textbf{0.065}^*$ | $\textbf{0.065}^*$ |
+|EALinUCB (ours) | RBP | $\textbf{0.3722}$ | 0.4074 | 0.434 | 0.0555 | 0.0557 | 
+|EALinUCB (ours) | Linear | 0.3585 | $\textbf{0.498}^*$ | 0.5062 | 0.0601 | 0.0604 | 
+
+
+<br/>
+
+Performance of our EALinUCB with three different weight functions and the baselines on **MovieLens** dataset for $𝑑 = 20$ and $𝐾 = 5$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
+| Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
+| :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
+| LinUCB  |  -    |0.2343 | 0.4107 | 0.3891 | 0.0606 | 0.0579 |
+| EARSLinUCB | - | 0.2342 | 0.4271 | 0.4071 | 0.0592 | 0.0592 |
+|FRMLinUCB | - | 0.2142 | 0.4137 | 0.0613 | 0.0197 | 0.0187 | 
+|EALinUCB (ours) | Log | 0.2275 | 0.4213 | 0.5811 | 0.0641 | 0.0639 |
+|EALinUCB (ours) | RBP | 0.2343 | 0.4107 | 0.6109 | 0.0606 | 0.0579 | 
+|EALinUCB (ours) | Linear | 0.2212 | 0.5049 | 0.5017 | 0.0629 | 0.0617 | 
+
+<br/>
+
+Performance of our EALinUCB with three different weight functions and the baselines on **Yahoo Music** dataset for $𝑑 = 20$ and $𝐾 = 10$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
+| Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
+| :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
+| LinUCB  |  -    |0.3975 | 0.5011 | 0.4671 | 0.0655 | 0.0617 |
+| EARSLinUCB | - | 0.398 | 0.523 | 0.503 | 0.0656 | 0.0656 |
+|FRMLinUCB | - | 0.3775 | 0.5089 | 0.0658 | 0.0214 | 0.0201 | 
+|EALinUCB (ours) | Log | 0.3881 | 0.5283 | 0.4775 | 0.0731 | 0.0728 |
+|EALinUCB (ours) | RBP | 0.3975 | 0.5011 | 0.5329 | 0.0654 | 0.0617 | 
+|EALinUCB (ours) | Linear | 0.3878 | 0.5583 | 0.4456 | 0.0674 | 0.0673 | 
 
 
 <br/>
