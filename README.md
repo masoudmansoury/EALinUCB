@@ -74,12 +74,12 @@ Performance of our EALinUCB with three different weight functions and the baseli
 Performance of our EALinUCB with three different weight functions and the baselines on **MovieLens** dataset for $𝑑 = 20$ and $𝐾 = 5$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
 | Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
-| LinUCB  |  -    |0.2343 | 0.4107 | 0.3891 | 0.0606 | 0.0579 |
-| EARSLinUCB | - | 0.2342 | 0.4271 | 0.4071 | 0.0592 | 0.0592 |
-|FRMLinUCB | - | 0.2142 | 0.4137 | 0.0613 | 0.0197 | 0.0187 | 
-|EALinUCB (ours) | Log | 0.2275 | 0.4213 | 0.5811 | 0.0641 | 0.0639 |
-|EALinUCB (ours) | RBP | 0.2343 | 0.4107 | 0.6109 | 0.0606 | 0.0579 | 
-|EALinUCB (ours) | Linear | 0.2212 | 0.5049 | 0.5017 | 0.0629 | 0.0617 | 
+| LinUCB  |  -    |$\textbf{0.2343}$ | 0.4107 | 0.3891 | 0.0606 | 0.0579 |
+| EARSLinUCB | - | $\textbf{0.2343}$ | $\textit{0.4271}$ | 0.4071 | 0.0592 | 0.0592 |
+|FRMLinUCB | - | 0.2142 | 0.4137 | 0.4613 | 0.0197 | 0.0187 | 
+|EALinUCB (ours) | Log | $\textit{0.2275} | 0.4213 | 0.5811 | 0.0641 | 0.0639 |
+|EALinUCB (ours) | RBP | $\textbf{0.2343}$ | 0.4107 | 0.6109 | 0.0606 | 0.0579 | 
+|EALinUCB (ours) | Linear | 0.2212 | $\textbf{0.5049}^*$ | 0.5017 | 0.0629 | 0.0617 | 
 
 <br/>
 
