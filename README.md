@@ -83,28 +83,20 @@ Performance of our EALinUCB with three different weight functions and the baseli
 
 <br/>
 
-Performance of our EALinUCB with three different weight functions and the baselines on **Yahoo Music** dataset for $𝑑 = 20$ and $𝐾 = 10$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
+Performance of our EALinUCB with three different weight functions and the baselines on **MovieLens** dataset for $𝑑 = 20$ and $𝐾 = 10$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
 | Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
-| LinUCB  |  -    |0.3975 | 0.5011 | 0.4671 | 0.0655 | 0.0617 |
-| EARSLinUCB | - | 0.398 | 0.523 | 0.503 | 0.0656 | 0.0656 |
-|FRMLinUCB | - | 0.3775 | 0.5089 | 0.0658 | 0.0214 | 0.0201 | 
-|EALinUCB (ours) | Log | 0.3881 | 0.5283 | 0.4775 | 0.0731 | 0.0728 |
-|EALinUCB (ours) | RBP | 0.3975 | 0.5011 | 0.5329 | 0.0654 | 0.0617 | 
-|EALinUCB (ours) | Linear | 0.3878 | 0.5583 | 0.4456 | 0.0674 | 0.0673 | 
+| LinUCB  |  -    |$\textit{0.3975}$ | 0.5011 | 0.4671 | 0.0655 | 0.0617 |
+| EARSLinUCB | - | $\textbf{0.398}$ | 0.523 | 0.503 | 0.0656 | 0.0656 |
+|FRMLinUCB | - | 0.3775 | 0.5249 | 0.0658 | 0.0214 | 0.0201 | 
+|EALinUCB (ours) | Log | 0.3881 | $\textbf{0.5283}$ | 0.4775 | 0.0731 | 0.0728 |
+|EALinUCB (ours) | RBP | $\textit{0.3975}$ | 0.5011 | 0.5329 | 0.0654 | 0.0617 | 
+|EALinUCB (ours) | Linear | 0.3878 | $\textbf{0.5583}$ | 0.4456 | 0.0674 | 0.0673 | 
 
 
 <br/>
 
-Performance of our EALinUCB with three different weight functions and the baselines on **MovieLens** dataset for $𝑑 = 20$ and $𝐾 = 10$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
-| Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
-| :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
-| LinUCB  |  -    | $\textbf{0.3722}$ | 0.3974 | 0.3656 | 0.0555 | 0.0507 |
-| EARSLinUCB | - | 0.3721 | 0.3974 | 0.3848 | 0.0562 | 0.0541 |
-|FRMLinUCB | - | 0.3574 | 0.4029 | 0.4157 | 0.0572 | 0.055 | 
-|EALinUCB (ours) | Log | 0.3605 | 0.494 | $\textbf{0.514}^*$ | $\textbf{0.065}^*$ | $\textbf{0.065}^*$ |
-|EALinUCB (ours) | RBP | $\textbf{0.3722}$ | 0.4074 | 0.434 | 0.0555 | 0.0557 | 
-|EALinUCB (ours) | Linear | 0.3585 | $\textbf{0.498}^*$ | 0.5062 | 0.0601 | 0.0604 | 
+
 
 
 <br/>
