@@ -91,6 +91,6 @@ Comparison of LinUCB and EALinUCB with three weight functions in terms of clicks
 
 <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_clicks_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_regret_ea.png" width="400"/>
 
-<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equality_b_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equity_b_ea.png" width="400"/>
+<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equality_b_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equality_p_ea.png" width="400"/>
 
-<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equity_p_ea.png" width="400"/>
+<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equity_b_ea.png" width="400"/> <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_r2y_cum_equity_p_ea.png" width="400"/>
