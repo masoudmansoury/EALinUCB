@@ -170,7 +170,7 @@ Comparison of LinUCB and EALinUCB with three weight functions in terms of clicks
 
 Exposure analysis of our EALinUCB algorithm with three different weight functions on **MovieLens** dataset for $𝑑 = 10$ and $𝐾 = 10$. Colorbar shows the percentage increase/decrease in $\overline{𝑐𝑙𝑖𝑐𝑘𝑠}$. Items are sorted based on their exposure ($𝐸^{(𝑃)}$) by LinUCB in descending order from left to right where items in the left-side are the over-exposure ones and items in the right-side are under-exposed ones.
 
-<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_exposure_b.png" width="400"/> 
+<img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_exposure_b.png" /> 
 
 <img src="https://github.com/masoudmansoury/ealinucb/blob/main/images/img_ml_exposure_p.png" width="400"/>
 
