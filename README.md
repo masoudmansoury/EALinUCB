@@ -120,6 +120,30 @@ Performance of our EALinUCB with three different weight functions and the baseli
 
 <br/>
 
+Performance of our EALinUCB with three different weight functions and the baselines on **Yahoo Music** dataset for $𝑑 = 20$ and $𝐾 = 5$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
+| Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
+| :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
+| LinUCB  |  -    | 0.1956 | 0.5343 | 0.5112 | 0.5216 | 0.4981 |
+| EARSLinUCB | - | 0.1956 | 0.53 | 0.53 | 0.5176 | 0.5176 |
+|FRMLinUCB | - | 0.0702 | 0.0586 | 0.0567 | 0.0535 | 0.0517 | 
+|EALinUCB (ours) | Log | 0.1915 | 0.538 | 0.4676 | 0.5244 | 0.5186 |
+|EALinUCB (ours) | RBP | 0.196 | 0.5315 | 0.4932 | 0.5171 | 0.4929 | 
+|EALinUCB (ours) | Linear | 0.1836 | 0.5015 | 0.5037 | 0.4871 | 0.4819 |
+
+<br/>
+
+Performance of our EALinUCB with three different weight functions and the baselines on **Yahoo Music** dataset for $𝑑 = 20$ and $𝐾 = 10$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
+| Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
+| :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
+| LinUCB  |  -    | 0.3374 | 0.6092 | 0.5761 | 0.6009 | 0.5661 |
+| EARSLinUCB | - | 0.3378 | 0.6111 | 0.6111 | 0.601 | 0.601 |
+|FRMLinUCB | - | 0.1354 | 0.0594 | 0.0557 | 0.0543 | 0.0509 | 
+|EALinUCB (ours) | Log | 0.3293 | 0.6235 | 0.3854 | 0.6073 | 0.5987 |
+|EALinUCB (ours) | RBP | 0.3384 | 0.6129 | 0.4211 | 0.5991 | 0.5656 | 
+|EALinUCB (ours) | Linear | 0.3293 | 0.6208 | 0.3862 | 0.6076 | 0.6004 | 
+
+<br/>
+
 ### Additional results corresponding to Figure 3
 
 Comparison of LinUCB and EALinUCB with three weight functions in terms of clicks, n-step-regret, and exposure bias metrics per round on **MovieLens** dataset for $𝑑 = 10$, $𝐾 = 10$, $\alpha = 0.25$, and $\gamma = 0$. For exposure bias metrics, at each round $𝑡$, the metric value is computed over the accumulated exposure up to round $𝑡$.
