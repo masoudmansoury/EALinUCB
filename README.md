@@ -99,12 +99,12 @@ Performance of our EALinUCB with three different weight functions and the baseli
 Performance of our EALinUCB with three different weight functions and the baselines on **Yahoo Music** dataset for $𝑑 = 10$ and $𝐾 = 5$. For all metrics, higher value is more desired. $*$ indicates that the result is significant with 𝑝 < 0.01.
 | Method | Weight function | $clicks$ | $Equality^{(B)}$ | $Equality^{(P)}$ | $Equity^{(B)}$ | $Equity^{({P})}$
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
-| LinUCB  |  -    | 0.3154 | 0.4469 | 0.404 | 0.4429 | 0.4002 |
-| EARSLinUCB | - | 0.3157 | 0.4467 | 0.4467 | 0.4429 | 0.4429 |
-|FRMLinUCB | - | 0.3085 | 0.4517 | 0.4596 | 0.4517 | 0.4498 | 
-|EALinUCB (ours) | Log | 0.3073 | $\textbf{0.495}^*$ | 0.5174 | $\textbf{0.485}^*$ | $\textbf{0.473}^*$ |
-|EALinUCB (ours) | RBP | $\textbf{0.3171}$ | 0.4489 | $\textbf{0.553}^*$ | 0.4614 | 0.4585 | 
-|EALinUCB (ours) | Linear | 0.3008 | 0.4552 | 0.5312 | 0.461 | 0.4542 | 
+| LinUCB  |  -    | 0.1802 | 0.3602 | 0.3316 | 0.3559 | 0.3278 |
+| EARSLinUCB | - | 0.1807 | 0.3591 | 0.3591 | 0.3556 | 0.3556 |
+|FRMLinUCB | - | 0.1721 | 0.3514 | 0.02 | 0.0214 | 0.0201 | 
+|EALinUCB (ours) | Log | 0.1772 | 0.3662 | 0.6396 | 0.3599 | 0.3541 |
+|EALinUCB (ours) | RBP | 0.1814 | 0.373 | 0.6812 | 0.338 | 0.312 | 
+|EALinUCB (ours) | Linear | 0.1706 | 0.2561 | 0.7479 | 0.2523 | 0.2482 | 
 
 <br/>
 
